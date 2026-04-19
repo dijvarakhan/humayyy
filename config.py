@@ -19,7 +19,7 @@ class Config:
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 50))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
-        self.SESSION1 = getenv("SESSION", "AQJWeTkAs4-Wr1e_Ri5hI5dUA8-P92BqQ9cZB9ybKF4r67OcBmj_xO9IROrOH5x7eq7ypSP1HG7EXkKdYcCVUnMrzBCOzlPVWW3ahCw1Wgr7VFxyx4gI-oWfC4iaV9-lXHX7mzkCf9D6OJv9sTww3I2fsu-jKciMMGadXtUYRjxNti5afWKwJZYcO8g7sSYawFL8gnuq3hLVTfIC_AHusoqoM8YAuC_f8felv2M0cv9kjx3w7yajyN3oTZBv9DHwMGVc5i7I7C4mtuUBN3pyDSek3IWjqq2rT5Pf_LeSc-6hSJtNnMNricseJ8RtjbIYwg0cRZ2NBWuzFp7dA4ahXNNtxzp2eQAAAAIFscYJAA")
+        self.SESSION1 = getenv("SESSION", "AQJWeTkAs4-Wr1e_Ri5hI5dUA8-P92BqQ9cZB9ybKF4r67OcBmj_xO9IROrOH5x7eq7ypSP1HG7EXkKdYcCVUnMrzBCOzlw1Wgr7VFxyx4gI-oWfC4iaV9-lXHX7mzkCf9D6OJv9sTww3I2fsu-jKciMMGadXtUYRjxNti5afWKwJZYcO8g7sSYawFL8gnuq3hLVTfIC_AHusoqoM8YAuC_f8felv2M0cv9kjx3w7yajyN3oTZBv9DHwMGVc5i7I7C4mtuUBN3pyDSek3IWjqq2rT5Pf_LeSc-6hSJtNnMNricseJ8RtjbIYwg0cRZ2NBWuzFp7dA4ahXNNtxzp2eQAAAAIFscYJAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
@@ -36,7 +36,7 @@ class Config:
         self.AUTO_LEAVE: bool = parse_bool("AUTO_LEAVE", False)
         self.VIDEO_PLAY: bool = parse_bool("VIDEO_PLAY", True)
         self.COOKIES_URL = [
-            url for url in getenv("COOKIES_URL", "https://batbin.me/paschite").split(" ")
+            url for url in getenv("COOKIES_URL", "https://batbin.me/pchite").split(" ")
             if url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://te.legra.ph/file/3e40a408286d4eda24191.jpg")
